@@ -30,6 +30,7 @@ function heardWord(error, result) {}
 function keyPressed() {
   if (key === " ") {
     player.jump();
+    console.log("up");
   }
 }
 
